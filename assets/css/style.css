@@ -7,24 +7,31 @@
 body {
     background-color: #d9dcd6;
 }
-
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #121618;
-    color: #886a6a;
+    background-color: #3387ac;
+    color: #d3e0e8;
 }
 
 .header h1 {
-    display: inline-block;
+    display:inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
-    color: #535e47;
+    color: #cfe6b6;
 }
 
 .header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
